@@ -1,0 +1,75 @@
+.container {
+    width: 1950px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .check1 {
+    margin-top: 15px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .text {
+    width: 780px;
+    margin: 15px 0 0 50px ;
+  }
+
+  .delete {
+    width: 25px;
+    height: 20px;
+    font-size: 13px;
+    background: #174348;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 640px) {
+    .container {
+      width: 40%;  
+      margin-top: 5%;
+    }
+    .check1 {
+      width: 1.5%;
+      height: 1.5%;
+    }
+
+    .check1 input {
+        width: 14px;
+        height: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .delete {
+        width: 17px;
+        height: 17px;
+        font-size: 11px;
+    }
+  }
+
+  @media (max-width: 940px) {
+    .container {
+        width: 30%;
+    }
+
+    .check1 input {
+        width: 14px;
+        height: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .delete {
+        width: 17px;
+        height: 17px;
+        font-size: 11px;
+    }
+  }

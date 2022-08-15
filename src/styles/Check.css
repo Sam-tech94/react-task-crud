@@ -1,0 +1,53 @@
+.checkbox {
+  text-align: right;
+  width: 68%;
+}
+
+.check {
+  width: 18px;
+  height: 18px;
+  background: #008594;
+}
+
+.checkbox label {
+  width: 145px;
+  height: 27px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+@media (max-width: 640px) {
+  .checkbox {
+    width: 30%;
+  }
+
+  .checkbox label {
+    font-size: 14px;
+  }
+
+  .check {
+    width: 13px;
+    height: 13px;
+    background: #008594;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 940px) {
+  .checkbox {
+    width: 30%;
+  }
+
+  .checkbox label {
+    font-size: 14px;
+  }
+
+  .check {
+    width: 13px;
+    height: 13px;
+    background: #008594;
+    margin-right: 2px;
+  }
+}

@@ -1,0 +1,130 @@
+.form {
+  margin-top: 62px;
+}
+
+.div1 {
+  display: flex;
+}
+
+#input {
+  padding-left: 20px;
+  width: 730px;
+  height: 52px;
+  border-radius: 4px;
+  border: 1px solid #ffcd04;
+}
+
+.add1 {
+  margin-left: 25px;
+}
+
+main input {
+  width: 18px;
+  height: 18px;
+  background: #008594;
+}
+
+
+.form .addbtn {
+  margin-right: 300%;
+}
+
+.addBtn {
+  width: 100px;
+  height: 52px;
+  border: none;
+  border-radius: 4px;
+  background: #008594;
+  font-size: 25px;
+  color: #fff;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.task {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.validate {
+  color: #FF3104;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+@media (max-width: 640px ) {
+  #input {
+    padding: 15px 10px;
+    width: 790%;
+    height: 70%;
+  }
+
+  .task {
+    font-size: 16px;
+  }
+
+
+  .addBtn {
+    width: 25%;
+    height: auto;
+    padding: 8%;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 192%;
+  }
+
+  .inadd {
+    width: 25%;
+  }
+
+  #input::placeholder {
+    font-size: 12px;
+  }
+
+  .validate {
+    font-size: 10px;
+    width: 190px;
+    height: 10px;
+  }
+
+}
+
+@media (max-width: 940px) {
+  #input {
+    padding: 15px 10px;
+    width: 790%;
+    height: 70%;
+  }
+
+  .task {
+    font-size: 16px;
+  }
+
+  .div1 {
+    display: inline-block;
+  }
+
+  .addBtn {
+    width: 35%;
+    height: auto;
+    padding: 8%;
+    font-size: 15px;
+    margin-top: 10%;
+    margin-left: 192%;
+  }
+
+  .inadd {
+    width: 25%;
+  }
+
+  #input::placeholder {
+    font-size: 12px;
+  }
+
+  .validate {
+    font-size: 10px;
+    width: 160px;
+    height: 10px;
+  }
+}
