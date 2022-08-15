@@ -19,7 +19,6 @@ code {
 @media (max-width: 940px) {
   body {
     width: 70%;
-    /* margin: 0 0 0 0; */
     overflow-x: hidden;
   }
 }

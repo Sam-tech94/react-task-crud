@@ -16,6 +16,7 @@ const TodoList = () => {
         }
     }, []);
 
+    // to add todo
     const addTodo = (todo) => {
         const newTodo = [todo, ...todos];
 
@@ -26,6 +27,7 @@ const TodoList = () => {
         console.log(newTodo)
     };
 
+    // delete todo
     const deleteItem = id => {
         let removeItem = [...todos].filter(todo => todo.id !== id);
         
@@ -34,6 +36,7 @@ const TodoList = () => {
         localStorage.setItem("localTodo", JSON.stringify(removeItem));
     };
 
+    // controled checkbox 
     const onChange = (newTodo) => {
         const newTodoList = todos.map(todo => {
             if (todo.id === newTodo.id) {

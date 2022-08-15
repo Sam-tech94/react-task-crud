@@ -46,9 +46,6 @@ const ToDoForm = ({onSubmit}) => {
                     />
                     {validate && <div className="validate">{validate}</div>}
                 </div>
-                {/* <div className="validate">
-                     {validate && <div style={{color: "#FF3104", fontSize: "12px", lineHeight: "18px"}}>{validate}</div>}
-                </div> */}
                 <div className="add1">
                     <button className="addBtn">Add</button>
                 </div>
