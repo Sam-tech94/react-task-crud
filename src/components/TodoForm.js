@@ -9,11 +9,12 @@ const ToDoForm = ({onSubmit}) => {
     const handleChange = (e) => {
         if (e.target.value.length >= 54) {
             setValidate("Task content can contain max 54 characters");
+            
         } else if (e.target.value.length <= 54) {
             setValidate("");
+            setInput(e.target.value);
         }
 
-        setInput(e.target.value);
     }
 
     const handleSubmit = (e) => {
